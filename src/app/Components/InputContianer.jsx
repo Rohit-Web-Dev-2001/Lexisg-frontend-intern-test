@@ -23,7 +23,7 @@ const InputContiner = (props) => {
         onChange={(e) =>
           setprompt((prev) => ({ ...prev, input: e.target.value }))
         }
-        placeholder="Type anything here..."
+        placeholder="Type your queries here..."
         className="textarea"
       />
       <button onClick={handleSubmit} className="button">
